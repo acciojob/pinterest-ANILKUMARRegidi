@@ -1,1 +1,34 @@
 /*  your css code here. If applicable */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100vw;
+}
+.hero>img{
+	max-width:70%;
+	height:auto;
+}
+#main{
+	max-width:70%;
+	text-align:center;
+	padding:20px;
+	margin:20px;
+}
+h1 p button{
+	margin:20px;
+	padding:20px;
+}
+button{
+	color:white;
+	background:red;
+	border:none;
+	width:60%;
+	padding:6px;
+	border-radius:10px;
+}
